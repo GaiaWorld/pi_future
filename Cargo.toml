@@ -1,0 +1,12 @@
+[package]
+name = "pi_future"
+version = "0.1.0"
+authors = ["vmos <vmos@fairblock.io>"]
+
+[dependencies]
+futures = "0.1.23"
+npnc = "*"
+
+pi_time = {path="../pi_time"}
+pi_atom = {path="../pi_atom"}
+pi_worker = {path="../pi_worker"}
